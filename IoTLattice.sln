@@ -1,0 +1,23 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IoTLattice", "IoTLattice.csproj", "{9561DF2A-B9A3-4A01-9FE3-ACB762743E47}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IoTLattice.test", "IoTLattice.test\IoTLattice.test.csproj", "{DE8506EF-7F6B-4FFC-9B1E-8155A81AEB8B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9561DF2A-B9A3-4A01-9FE3-ACB762743E47}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9561DF2A-B9A3-4A01-9FE3-ACB762743E47}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9561DF2A-B9A3-4A01-9FE3-ACB762743E47}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9561DF2A-B9A3-4A01-9FE3-ACB762743E47}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DE8506EF-7F6B-4FFC-9B1E-8155A81AEB8B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DE8506EF-7F6B-4FFC-9B1E-8155A81AEB8B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DE8506EF-7F6B-4FFC-9B1E-8155A81AEB8B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DE8506EF-7F6B-4FFC-9B1E-8155A81AEB8B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
