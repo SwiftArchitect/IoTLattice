@@ -40,8 +40,8 @@
     <Compile Include="tests\MockIoTIdentifiable.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\IoTLattice.csproj">
-      <Project>{9561DF2A-B9A3-4A01-9FE3-ACB762743E47}</Project>
+    <ProjectReference Include="..\IoTLattice\IoTLattice.csproj">
+      <Project>{27747AE4-0C7C-40E9-8633-5B61AAE2B357}</Project>
       <Name>IoTLattice</Name>
     </ProjectReference>
   </ItemGroup>

@@ -1,0 +1,24 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard1.3</TargetFramework>
+    <PackageVersion>0.0.10</PackageVersion>
+    <Authors>Xavier Schott</Authors>
+    <Description>Internet of Things Lattice</Description>
+    <Owners>Xavier Schott</Owners>
+    <PackageProjectUrl>https://github.com/SwiftArchitect/IoTLattice</PackageProjectUrl>
+    <Summary>Internet of Things Lattice</Summary>
+    <Title>IoT</Title>
+    <PackageLicenseUrl>https://opensource.org/licenses/MIT</PackageLicenseUrl>
+    <PackageReleaseNotes>Alpha</PackageReleaseNotes>
+    <PackOnBuild>true</PackOnBuild>
+    <PackageId>IoTLattice</PackageId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="sources\" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="NuGet.Build.Packaging" Version="0.2.0" />
+  </ItemGroup>
+</Project>

@@ -3751,9 +3751,9 @@
   },
   "project": {
     "restore": {
-      "projectUniqueName": "/Users/xschott/Documents/Sources/github/SwiftArchitect/IoTLattice/IoTLattice.csproj",
-      "projectName": "IoTLattice",
-      "projectPath": "/Users/xschott/Documents/Sources/github/SwiftArchitect/IoTLattice/IoTLattice.csproj",
+      "projectUniqueName": "/Users/xschott/Documents/Sources/github/SwiftArchitect/IoTLattice/IoTLatticeX.csproj",
+      "projectName": "IoTLatticeX",
+      "projectPath": "/Users/xschott/Documents/Sources/github/SwiftArchitect/IoTLattice/IoTLatticeX.csproj",
       "projectJsonPath": "/Users/xschott/Documents/Sources/github/SwiftArchitect/IoTLattice/project.json",
       "packagesPath": "/Users/xschott/.nuget/packages/",
       "projectStyle": "ProjectJson",
@@ -3761,6 +3761,7 @@
         "/Users/xschott/.config/NuGet/NuGet.Config"
       ],
       "sources": {
+        "/Users/xschott/Documents/Sources/github/SwiftArchitect/IoTLattice/IoTLattice/bin/Debug": {},
         "https://api.nuget.org/v3/index.json": {}
       }
     },
