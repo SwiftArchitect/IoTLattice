@@ -2,9 +2,11 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard1.3</TargetFramework>
-    <PackageVersion>0.0.10</PackageVersion>
+    <PackageVersion>0.0.11</PackageVersion>
     <Authors>Xavier Schott</Authors>
-    <Description>Internet of Things Lattice</Description>
+    <Description>Internet of Things Lattice.
+
+Icon image: «Star_network_7.png. by Merdis is licensed under the Creative Commons Attribution-Share Alike 3.0 Unported license.»</Description>
     <Owners>Xavier Schott</Owners>
     <PackageProjectUrl>https://github.com/SwiftArchitect/IoTLattice</PackageProjectUrl>
     <Summary>Internet of Things Lattice</Summary>
@@ -13,6 +15,7 @@
     <PackageReleaseNotes>Alpha</PackageReleaseNotes>
     <PackOnBuild>true</PackOnBuild>
     <PackageId>IoTLattice</PackageId>
+    <PackageIconUrl>https://upload.wikimedia.org/wikipedia/commons/9/9e/Star_network_7.png</PackageIconUrl>
   </PropertyGroup>
 
   <ItemGroup>
