@@ -39,19 +39,18 @@ namespace IoTLattice
         /// <returns>All IoT within range, according to the rules</returns>
         /// <param name="seconds">Msaximum amount of time, in seconds, since IoT was last seen</param>
         /// <param name="rssi">Minimum signal strengh when last seen to qualify. Default: no minimum</param>
-        public IEnumerable<IoTRssiHistory> WithinRange(double seconds, int rssi = -100)
+        public IEnumerable<IoTAverageRssi> WithinRange(double seconds, int rssi = -100)
         {
             DropObsoleteRecords();
 
             var expiration = DateTimeOffset.Now.AddSeconds(-seconds);
             var actives = rssis.Where(pair => (pair.Value.LastSeen >= expiration) && (pair.Value.LastRssi >= rssi));
-            var result = new List<IoTRssiHistory>();
-            foreach (var active in actives)
+
+            return actives.Select((KeyValuePair<ulong, RssiHistory> active) =>
             {
                 var mac = active.Key;
-                result.Add(new IoTRssiHistory() { ioTIdentifiable = iots[mac], rssiHistory = rssis[mac] });
-            }
-            return result;
+                return new IoTAverageRssi(iots[mac], rssis[mac].AverageRssi);
+            });
         }
 
         private void DropObsoleteRecords()

@@ -5,7 +5,7 @@ using System.Linq;
 
 namespace IoTLattice
 {
-    public class LimitedConcurrentQueue<ELEMENT> : ConcurrentQueue<ELEMENT>
+    internal class LimitedConcurrentQueue<ELEMENT> : ConcurrentQueue<ELEMENT>
     {
         public readonly int Limit;
 
